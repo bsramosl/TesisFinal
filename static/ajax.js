@@ -307,7 +307,7 @@ function listarReactor() {
                 $('#tablareactor tbody').append(fila);
             }
             $('#tablareactor').DataTable({
-                "responsive": true,
+                "responsive": false,
                 "lengthChange": false,
                 "autoWidth": false,
                 "buttons": ["copy", "csv", "excel", "pdf", "print"],

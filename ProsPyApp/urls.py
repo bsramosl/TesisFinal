@@ -55,4 +55,6 @@ urlpatterns = [
 
     path('EjerciciosLista/', login_required(views.EjerciciosLista.as_view()), name='EjerciciosLista'),
 
+    path('Comparar/', login_required(views.Comparar.as_view()), name='Comparar'),
+
 ]
